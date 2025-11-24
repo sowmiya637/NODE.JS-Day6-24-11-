@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+  </head>
+  <body>
+    <h1>Welcome <%= user %>!</h1>
+    <ul>
+      <% items.forEach(item => { %>
+        <li><%= item %></li>
+      <% }) %>
+    </ul>
+  </body>
+</html>
