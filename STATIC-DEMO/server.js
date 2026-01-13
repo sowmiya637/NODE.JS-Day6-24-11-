@@ -4,7 +4,7 @@ const path = require("path");
 
 // Serve static files from "public" folder
 app.use(express.static("public"));
-
+// Git practices
 // Example route
 app.get("/", (req, res) => {
   res.send(`
